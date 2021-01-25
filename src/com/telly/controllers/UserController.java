@@ -24,7 +24,7 @@ public class UserController {
 
 	@Autowired
 	UserService userService;
-
+        UserService userService2;
 
 	@RequestMapping("/login")
 	public String showLogin() {
